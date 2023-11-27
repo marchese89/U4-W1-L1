@@ -12,6 +12,7 @@ public class Main2 {
         System.out.println(concat(strings, true));
         System.out.println("Stringhe in ordine inverso");
         System.out.println(concat(strings, false));
+        sc.close();
     }
 
     public static String concat(String[] array, boolean order) {

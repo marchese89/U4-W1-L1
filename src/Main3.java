@@ -26,6 +26,7 @@ public class Main3 {
         System.out.println("dammi il terzo lato");
         c = Double.parseDouble(sc.nextLine());
         System.out.println("Area: " + areaTriangolo(a, b, c));
+        sc.close();
     }
 
     public static double perimetroRettangolo(double x, double y) {
